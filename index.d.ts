@@ -474,6 +474,8 @@ export function         createEditSession(text: string, mode: TextMode): IEditSe
         removeFold(arg: any): void;
 
         expandFold(arg: any): void;
+        
+        foldAll(startRow?: number, endRow?: number, depth?: number): void
 
         unfold(arg1: any, arg2: boolean): void;
 
